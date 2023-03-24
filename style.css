@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    max-width:1136px;
+    margin: auto;
+}
+.wrapper img{
+    width: 100%;
+}
+header{
+    background-color: rgb(190, 190, 186);
+    color: rgb(81, 78, 78);
+    margin: 30px 0 30px 0;
+    text-align: center;
+    padding: 1rem;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+}
